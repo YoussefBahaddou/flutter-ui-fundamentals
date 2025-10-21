@@ -236,21 +236,6 @@ class MyHomePage extends StatelessWidget {
   }
 }
 ```
-
-## Erreurs courantes et solutions
-
-1. **Problème** : La couleur du texte de l'AppBar ne change pas.
-   **Solution** : Assurez-vous de définir la couleur dans `appBarTheme.titleTextStyle.color` et non dans `appBarTheme.color`.
-
-2. **Problème** : Le Drawer ne s'affiche pas.
-   **Solution** : Vérifiez que vous avez bien ajouté la propriété `drawer` au Scaffold.
-
-3. **Problème** : Les styles de texte ne sont pas appliqués.
-   **Solution** : Assurez-vous d'utiliser `Theme.of(context).textTheme.bodyLarge` pour accéder au style défini dans le thème.
-
-4. **Problème** : La propriété textAlign ne fonctionne pas dans TextStyle.
-   **Solution** : textAlign est une propriété du widget Text, pas de TextStyle. Ajoutez-la directement au widget Text.
-
 ## Résumé
 
 Ce TP nous a permis de découvrir les concepts fondamentaux de Flutter :
